@@ -1,0 +1,138 @@
+#cinema_star{
+    width:700px;
+    height:700px;
+    top: 50px;
+ 
+    position: fixed;
+}
+#cinema_board{
+    width:700px;
+    height: 700px;
+    top: 50px;
+
+    position: fixed;
+}
+#div-of-movie-selected-details{
+    
+    width:700px;
+ 
+    top: 327px;
+
+    position: relative;
+
+    margin-left: 42%;
+    color: white;
+    
+}
+
+#projector{
+    height: 500px;
+    width: 250px;
+    position: fixed;
+    bottom: -30px;
+    left: 5px;
+}
+#input-field{
+    margin-top: 12%;
+    width: 40%;
+    margin-left: 28%;
+}
+#input-id-field{
+    width: 5%;
+    margin-left: 45%;
+    margin-top: -3%;
+}
+#label{
+    color: white;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+#p-movieDetails{
+    margin-left: 16%;
+}
+#warningDIVtag{
+margin-left: -3%;
+color: lime;
+text-align: center;
+}
+
+#button-search{
+    margin-top: 3%;
+    margin-left: 33%;
+}
+#button-avg-rating{
+    margin-left: 47%;
+    margin-top: -6.7%;
+   
+}
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ 
+  }
+#table-of-movies{
+    width: 30%;
+    margin-left: 33%;
+    
+}
+
+td {
+    font-family: serif;
+}
+td:hover{
+    cursor: pointer;
+    color: rgb(201, 180, 65);
+}
+.modal-dialog { 
+    position: fixed;
+    height: 0%; 
+    background-color:rgba(0, 140, 255, 0); 
+
+}       
+.modal-content{
+    height: 0%; 
+    background-color:rgba(0, 140, 255, 0); 
+    position: fixed;
+    margin-left: -30%;
+    
+}
+.modal{
+    height: 0%; 
+    background-color:rgba(87, 85, 85, 0.123);
+    position: fixed;
+    
+}
+
+#btn{
+    margin-left: 100%;
+}
+#th{
+    text-align: center;
+}
+
+#table-wrapper {
+    position:relative;
+  }
+  #table-scroll {
+    height:200px;
+    overflow:auto;  
+    margin-top:20px;
+  }
+  #table-wrapper table {
+    width:100%;
+  
+  }
+  /*#table-wrapper table * {
+  
+    color:rgb(255, 255, 255);
+  }*/
+  #table-wrapper table thead th .text {
+    position:absolute;   
+    top:-20px;
+    z-index:2;
+    height:20px;
+    width:35%;
+    border:1px solid red;
+  }
